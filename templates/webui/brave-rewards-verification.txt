@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: vincy.ddns.net
+Token: 8611177a618b348547c2d5dfe0cf85541f71d3fa0a83b319866e9afe2259df4f

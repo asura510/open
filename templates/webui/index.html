@@ -1,0 +1,12 @@
+{% extends 'webui/base.html' %}
+{% load static %}
+{% block content %}
+<div id="chatbox" class="mdl-cell mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+  <div id="text-dialog" class="mdl-textfield mdl-color-text--blue-grey-900 mdl-js-textfield">
+    <input id="command" class="mdl-textfield__input" type="text" placeholder="Say something" autocomplete="off" onkeypress="handle(event)">
+  </div>
+
+</div>    
+<a id="voice-dialog" class="mdl-button mdl-js-button mdl-button--mini-fab mdl-js-ripple-effect mdl-button--colored mdl-color-text--white"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">mic</i></a>
+     
+{% endblock content %}
